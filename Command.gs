@@ -20,11 +20,11 @@ function periksaPerntah(updates){
         saveData(updates.message.from,userrow);
         sendText(updates.message.chat.id,"Terimakasih, submit data berhasil, gunakan /start untuk memulai baru");     
         saveUserState(updates.message.from.id,"MAIN");
-        sendText("-800805572","Tgl Input : " + userrow[5] + "\n" + 
+        sendText("<YOUR_GROUP_ID_TELEGRAM>","Tgl Input : " + userrow[5] + "\n" + 
         "Nama CAM : " + userrow[6] + "\n" + 
         "Nama LOP :  " + userrow[7] + "\n" + 
         "Keterangan : " + userrow[8]);
-        sendPhoto("-800805572",userrow[10],userrow[11]);             
+        sendPhoto("<YOUR_GROUP_ID_TELEGRAM>",userrow[10],userrow[11]);             
       }else{
         sendText(updates.message.chat.id,"Data yang kamu input belum selesai");
       }
