@@ -5,3 +5,5 @@ if you wanna try go here https://t.me/ricanfivebot
 and for group chat me on telegram @cookiescrumblee
 
 thank you
+
+note: i made this when i got intern on telkom hehe
